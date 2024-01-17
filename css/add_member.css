@@ -1,0 +1,97 @@
+body {
+    background-color: #f2f4f6;
+}
+
+.all {
+    margin: 0 5%;
+    background-color: #fff;
+    padding: 0 2%;
+    padding-block: 50px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.forms-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-top: 30px;
+}
+
+.forms input,
+.forms select {
+    background-color: transparent !important;
+    height: 50px;
+    padding-left: 3%;
+    border: 1px solid #171616a1;
+    /* border: 1px solid #fff; */
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+}
+
+.forms input:focus,
+.forms select:focus {
+    outline: none;
+}
+
+.title sub {
+    display: flex;
+    width: 100px;
+    height: 5px;
+    background-color: #d2d489;
+    border-radius: 20px;
+}
+
+option {
+    color: #171616a1;
+}
+
+#image-preview {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #d2d489;
+    border-radius: 50%;
+    margin-top: 30px;
+    background-image: url(../images/profile.png);
+    background-position: center;
+    background-size: cover;
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+}
+
+#image-preview img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.lab {
+    background-color: #d2d489;
+    color: #fff;
+    height: 50px;
+    cursor: pointer;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ option {
+    border: 1px solid;
+    height: 10px !important;
+}
+
+.forms button{
+    border: none;
+    height: 50px;
+    background-color: #d2d489;
+    color: #f2f4f6;
+}
