@@ -78,12 +78,15 @@ input[type="file"] {
     color: #fff;
     height: 50px;
     cursor: pointer;
-    width: 150px;
+    width: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.lab i{
+    padding-right: 10px;
+    color: #fff;
+}
  option {
     border: 1px solid;
     height: 10px !important;
